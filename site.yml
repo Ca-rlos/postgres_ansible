@@ -1,0 +1,14 @@
+# Roles for PostgreSQL installation.
+- name: Node configuration.
+  hosts: all
+  remote_user: ansible
+
+  roles:
+    - common
+
+- name: PostgreSQL installation.
+  hosts: dbservers
+  remote_user: ansible
+
+  roles:
+    - db

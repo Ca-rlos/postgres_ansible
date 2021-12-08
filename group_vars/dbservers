@@ -1,0 +1,6 @@
+# Variables for dbservers group.
+
+postgres_port: 5432
+dbname: monitor
+dbuser: postgres
+password: admin

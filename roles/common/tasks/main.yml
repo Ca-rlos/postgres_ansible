@@ -1,0 +1,7 @@
+# Just in case.
+
+- name: Install gcc
+  apt: 
+    name: gcc
+    state: present
+  become: yes
